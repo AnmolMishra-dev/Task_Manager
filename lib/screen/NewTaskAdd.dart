@@ -20,9 +20,10 @@ class _NewTaskAddState extends State<NewTaskAdd> {
 
       appBar: AppBar(
         backgroundColor: ConstColor.NewTaskAppBarColor,
-        title: Text(ConstText.NewTasktitleAppBar,style: GoogleFonts.pacifico(fontWeight: FontWeight.bold,color:ConstColor.NewTaskTextAppBarColor ),),
+        title: Text(ConstText.NewTasktitleAppBar,style: GoogleFonts.pacifico(color:ConstColor.NewTaskTextAppBarColor ),),
         centerTitle: true,
         elevation: 0,
+       leading:  Icon(Icons.arrow_back_ios_new,color:Colors.black),
       ),
 
       body: Padding(
